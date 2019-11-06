@@ -1,8 +1,25 @@
 x = mouse_x;
 y = mouse_y;
 
-if(selected_entity != 0) {
+if(selected_entity == 0) {
+	if(!instance_exists(menu_obj)) {
+		if(mouse_check_button_pressed(mb_left)) {
+			if(instance_exists(destination_marker)) {
+				instance_destroy(destination_marker);
+			}
+		
+			effect_create_above(ef_ring, x, y, 1, c_aqua);
+			marker = instance_create_layer(x, y, "Instances", destination_marker)
+		}
+	}
+} else {
 	if(mouse_check_button_pressed(mb_left)) {
+		
+		if(instance_exists(destination_marker)) {
+			instance_destroy(destination_marker);
+		}
+		
+		
 		audio_play_sound(place_entity, 1, false);
 		
 		//create multiple if enemy is swarm enemy
@@ -18,7 +35,5 @@ if(selected_entity != 0) {
 		
 		
 		selected_entity = 0;
-	}	
-} else {
-	
+	}
 }

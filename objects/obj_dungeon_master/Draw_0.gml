@@ -10,13 +10,11 @@ if(selected_entity != 0) {
 	sprite_to_draw = 0;
 	
 	if(mouse_check_button_pressed(mb_left)) {
-		if(instance_exists(destination_marker)) {
-			instance_destroy(destination_marker);
-		}
+		
 		select_org_x = mouse_x;
 		select_org_y = mouse_y;
-		effect_create_above(ef_ring, select_org_x, select_org_y, 1, c_aqua);
-		marker = instance_create_layer(select_org_x, select_org_y, "Instances", destination_marker)
+		
+	
 	}
 	if(mouse_check_button(mb_left)) {
 		
