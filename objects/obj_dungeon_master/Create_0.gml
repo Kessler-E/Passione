@@ -27,3 +27,7 @@ sprite_to_draw = 0;
 
 nearest_box_x = 0;
 nearest_box_y = 0;
+
+select_org_x = 0;
+select_org_y = 0;
+change_org = true;
