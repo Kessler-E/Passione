@@ -5,6 +5,9 @@ for(var vx = 0; vx < room_width; vx += scale) {
 		if(mouse_x > vx && mouse_x < vx + scale && mouse_y > vy && mouse_y < vy + scale) {
 			draw_rectangle_color(vx, vy, vx + scale, vy + scale, c_fuchsia, c_aqua, c_fuchsia, c_aqua, true);
 			
+			obj_dungeon_master.nearest_box_x = vx;
+			obj_dungeon_master.nearest_box_y = vy;
+			
 			if(mouse_check_button_pressed(mb_right)) {
 				if(instance_exists(menu_obj)) {
 					instance_destroy(menu_obj);
