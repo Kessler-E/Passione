@@ -72,4 +72,9 @@ if(!(mouse_x > x_spawn && mouse_x < x_spawn + universal_width && mouse_y > y_spa
 }
 
 
+if(keyboard_check(vk_escape)) {
+	game_end();
+}
+
+
 
