@@ -1,2 +1,2 @@
 scale = 50;
-selected_obj = enemy;
+selected_obj = 0;

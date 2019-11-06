@@ -1,18 +1,28 @@
 {
-    "id": "7d3a75cd-8005-461b-a2f4-1e64370a71b0",
+    "id": "41668ef7-658d-40fd-8939-26e9212b8556",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_swarm",
+    "name": "obj_dungeon_master",
     "eventList": [
         {
-            "id": "27365542-085c-4ded-9ea3-f5a356fcb2b2",
+            "id": "1714b191-b2aa-434b-a532-6e238e3e6ac1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "7d3a75cd-8005-461b-a2f4-1e64370a71b0"
+            "m_owner": "41668ef7-658d-40fd-8939-26e9212b8556"
+        },
+        {
+            "id": "5c92da7f-be2e-4d99-843c-a5436bc8acad",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "41668ef7-658d-40fd-8939-26e9212b8556"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e4a36241-66aa-4162-8b1c-91f0b228c20e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

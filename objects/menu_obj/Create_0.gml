@@ -3,14 +3,20 @@ y_spawn = 0;
 
 
 //add everything buyable object here
-buyables = [enemy, other_enemy, other_e, other_enemy];
+//layout: [a,b,c,d]
+buyables = [enemy_basic, enemy_ranged, enemy_swarm];
 
 //names
-//add the name of the object in the correspoding position in the buyables array.
-names = ["uhh yea", "kappa", "i dont know", "same one"];
+//add the name of the object in the correspoding position in the buyables array.\
+//layout: [a,b,c,d]
+names = ["Melee", "Ranged", "Swarm"];
 
 //prices
-prices = [100, 120, 150, 200];
+//layout: [a,b,c,d]
+prices = [100, 120, 150];
+
+//descriptions of each
+desc = ["Basic enemy, uses melee attacks.", "Ranged enemy, shoots bullets at the player", "Swarm, a group of smaller, weaker melee enemies."];
 
 //scales the menu and buttons.
 universal_width = 200;

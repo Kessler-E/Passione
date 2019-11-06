@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "41668ef7-658d-40fd-8939-26e9212b8556",
+            "Value": {
+                "id": "fe384a79-905c-4176-b70b-555faa50954c",
+                "resourcePath": "objects\\obj_dungeon_master\\obj_dungeon_master.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "420f9cb7-73df-4f59-82d2-5da8abeeee2d",
             "Value": {
                 "id": "eaaaca5f-122d-4c1e-a663-116f0a8a609d",
@@ -178,7 +186,7 @@
             "Key": "7d3a75cd-8005-461b-a2f4-1e64370a71b0",
             "Value": {
                 "id": "254d87cc-1a11-4de9-8f5d-274d978c4444",
-                "resourcePath": "objects\\obj_swarm\\obj_swarm.yy",
+                "resourcePath": "objects\\enemy_swarm\\enemy_swarm.yy",
                 "resourceType": "GMObject"
             }
         },
