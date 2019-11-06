@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "78dcd913-9c21-406d-8087-7475adec46e6",
+            "Value": {
+                "id": "387b43e0-ba47-4d12-97da-af384df170df",
+                "resourcePath": "sprites\\circle\\circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7bc6535a-b458-411f-a8c0-f971ea07d019",
             "Value": {
                 "id": "bf0b6ad4-0b20-4460-af98-f69c1829fbb2",
@@ -220,6 +228,14 @@
                 "id": "ae133ec7-f1d4-423b-b030-477292afcef1",
                 "resourcePath": "objects\\enemy_basic\\enemy_basic.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8bd8192d-5060-4b7b-adf7-d1bd78c2196c",
+            "Value": {
+                "id": "add80dd6-9668-4f25-8d01-94c53fd46a98",
+                "resourcePath": "sounds\\menu_close\\menu_close.yy",
+                "resourceType": "GMSound"
             }
         },
         {
