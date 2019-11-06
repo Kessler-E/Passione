@@ -8,13 +8,15 @@ for(var vx = 0; vx < room_width; vx += scale) {
 			obj_dungeon_master.nearest_box_x = vx;
 			obj_dungeon_master.nearest_box_y = vy;
 			
-			if(mouse_check_button_pressed(mb_right)) {
-				if(instance_exists(menu_obj)) {
-					instance_destroy(menu_obj);
+			if(obj_dungeon_master.selected_entity == 0) {
+				if(mouse_check_button_pressed(mb_right)) {
+					if(instance_exists(menu_obj)) {
+						instance_destroy(menu_obj);
+					}
+					var menu = instance_create_layer(x, y, "gui", menu_obj);
+					menu.x_spawn = vx;
+					menu.y_spawn = vy;
 				}
-				var menu = instance_create_layer(x, y, "gui", menu_obj);
-				menu.x_spawn = vx;
-				menu.y_spawn = vy;
 			}
 			
 		}
