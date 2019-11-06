@@ -30,6 +30,7 @@ for(var i = 0; i < array_length_1d(obj_dungeon_master.buyables); i++) {
 		
 		if(mouse_check_button_pressed(mb_left)) {
 			if(global.enemy_gold > obj_dungeon_master.prices[i]) {
+				audio_play_sound(entity_select, 1, false);
 				obj_dungeon_master.selected_entity = obj_dungeon_master.buyables[i];
 				global.enemy_gold -= obj_dungeon_master.prices[i];
 				instance_destroy();

@@ -10,6 +10,7 @@ for(var vx = 0; vx < room_width; vx += scale) {
 			
 			if(obj_dungeon_master.selected_entity == 0) {
 				if(mouse_check_button_pressed(mb_right)) {
+					audio_play_sound(menu_open, 1, false);
 					if(instance_exists(menu_obj)) {
 						instance_destroy(menu_obj);
 					}
