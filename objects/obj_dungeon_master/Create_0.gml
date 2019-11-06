@@ -1,3 +1,4 @@
+//move the dm object to mouse cursor
 x = mouse_x;
 y = mouse_y;
 
@@ -17,17 +18,17 @@ prices = [50, 100, 120];
 //descriptions of each
 desc = ["Basic enemy, uses melee attacks.", "Ranged enemy, shoots bullets at the player", "Swarm, a group of smaller, weaker melee enemies."];
 
-//sprite indexes
-sprites = [box, box, box];
-
-
+//entity to place
 selected_entity = 0;
 
+//sprite index of entity to preview
 sprite_to_draw = 0;
 
+//nearest grid space to the mouse 
 nearest_box_x = 0;
 nearest_box_y = 0;
 
+//selection box variables
 select_org_x = 0;
 select_org_y = 0;
 change_org = true;

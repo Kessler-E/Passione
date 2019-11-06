@@ -1,18 +1,28 @@
 {
-    "id": "50f76218-03fc-45e9-9ee2-632034f11cdc",
+    "id": "3342c767-c31e-4536-bdca-6b5cc7bc8282",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "enemy_ranged",
+    "name": "destination_marker",
     "eventList": [
         {
-            "id": "312c5e96-9a61-412d-af38-6c4779131be9",
+            "id": "3229b2ad-ed11-4d5c-b638-f2eabb86651e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "50f76218-03fc-45e9-9ee2-632034f11cdc"
+            "m_owner": "3342c767-c31e-4536-bdca-6b5cc7bc8282"
+        },
+        {
+            "id": "7b2c48e8-2931-4ac8-b63d-08776ac7ddca",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "3342c767-c31e-4536-bdca-6b5cc7bc8282"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "38ee380b-9879-4d68-a3ca-2ca68f4a52ad",
+    "spriteId": "879acbad-9ac6-4062-94e8-ce086ec1dc29",
     "visible": true
 }
