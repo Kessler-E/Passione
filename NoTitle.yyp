@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "4c26a51e-865b-4be6-83b5-0b412cc7251f",
+            "Value": {
+                "id": "c3a51d6b-6e3a-46d3-a658-d86d0d71775a",
+                "resourcePath": "sounds\\funds_low\\funds_low.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4eaa443c-a6e1-45fb-bd3c-db73dda7cf41",
             "Value": {
                 "id": "f523464f-255d-498f-b2db-30a4e288cf67",

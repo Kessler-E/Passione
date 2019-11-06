@@ -37,6 +37,7 @@ for(var i = 0; i < array_length_1d(obj_dungeon_master.buyables); i++) {
 			} else {
 				alrt = instance_create_depth(x_spawn + 10 , c_y + extra_height, -1000, alert);
 				alrt.text = "Not enough funds.";
+				audio_play_sound(funds_low, 1, false);
 			}
 		}
 	} else {
