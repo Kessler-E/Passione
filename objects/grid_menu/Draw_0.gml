@@ -17,8 +17,7 @@ for(var vx = 0; vx < room_width; vx += scale) {
 					menu.x_spawn = vx;
 					menu.y_spawn = vy;
 				}
-			}
-			
+			}	
 		}
 	}
 }
