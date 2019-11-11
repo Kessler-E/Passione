@@ -1,1 +1,1 @@
-speed = damage/10
+speed = damage

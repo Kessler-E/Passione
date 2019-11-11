@@ -1,18 +1,18 @@
 {
-    "id": "b2dc9941-8f22-41c2-aa03-0bd9b66a7309",
+    "id": "4a88c859-8175-436f-aab6-5591ea7803d8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pickup_machinegun",
+    "name": "obj_pickup_scatter",
     "eventList": [
         {
-            "id": "8036ba08-ea9d-4606-9e18-9e3d44981928",
+            "id": "958ad7af-31e5-4e6e-9753-70259a719132",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "5e648caf-e938-4243-8c41-897604c8c176",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "b2dc9941-8f22-41c2-aa03-0bd9b66a7309"
+            "m_owner": "4a88c859-8175-436f-aab6-5591ea7803d8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4ab67f6a-f82b-4917-81f5-1f9b21dc0163",
+    "spriteId": "09341fb8-6ede-442f-87d7-59545732d474",
     "visible": true
 }

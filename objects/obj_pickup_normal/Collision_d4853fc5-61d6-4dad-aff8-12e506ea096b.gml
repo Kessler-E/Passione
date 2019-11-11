@@ -1,4 +1,4 @@
 with (other){
-	attacktype = "machinegun"
+	attacktype = "normal"
 }
 instance_destroy(self)

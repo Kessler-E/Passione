@@ -1,15 +1,12 @@
 switch type{
 	case "normal":
-		shotspeed = 10
-		damage = 5
+		shotspeed = damage*2
 		break
 	case "scatter":
-		shotspeed = 3
-		damage = 5
+		shotspeed = 20
 		break
 	case "machinegun":
-		shotspeed = 7
-		damage = 5
+		shotspeed = damage*3
 		break
 }
 direction = dir

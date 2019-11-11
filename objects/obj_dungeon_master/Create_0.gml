@@ -4,7 +4,7 @@ y = mouse_y;
 
 //add everything buyable object here
 //layout: [a,b,c,d]
-buyables = [enemy_basic, enemy_ranged, enemy_swarmer];
+buyables = [enemy_basic, enemy_ranged, enemy_swarm];
 
 //names
 //add the name of the object in the correspoding position in the buyables array.\

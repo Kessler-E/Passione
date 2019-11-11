@@ -1,18 +1,18 @@
 {
-    "id": "b0632538-55d4-4de7-8e52-eba7a28911e0",
+    "id": "6c9dc5e8-185f-484b-a21a-a3ec1ef5a2e9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "enemy_swarmer",
+    "name": "obj_pickup_normal",
     "eventList": [
         {
-            "id": "14dc57d3-824c-42bc-a2de-5594206684b2",
+            "id": "d4853fc5-61d6-4dad-aff8-12e506ea096b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "5e648caf-e938-4243-8c41-897604c8c176",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "b0632538-55d4-4de7-8e52-eba7a28911e0"
+            "eventtype": 4,
+            "m_owner": "6c9dc5e8-185f-484b-a21a-a3ec1ef5a2e9"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "78dcd913-9c21-406d-8087-7475adec46e6",
+    "spriteId": "16a59745-9832-4610-9f1d-c430224fc000",
     "visible": true
 }

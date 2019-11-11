@@ -1,4 +1,4 @@
-if instance_exists(destination_marker){
+if instance_exists(destination_marker) and 75 > distance_to_object(destination_marker) > 10{
 	dir_x = sign(destination_marker.x - x)
 	dir_y = sign(destination_marker.y - y)
 }
