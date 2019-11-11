@@ -3,3 +3,4 @@ for(var vx = 0; vx < room_width; vx += scale) {
 		draw_sprite(grass_or_something, 0, vx, vy);
 	}
 }
+
