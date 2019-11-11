@@ -25,3 +25,7 @@ if(selected_entity != 0) {
 		
 	} 
 }
+
+draw_set_font(def);
+draw_set_color(c_white);
+draw_text(30, 300, "Selected Entity: " + string(selected_entity));
