@@ -2,8 +2,8 @@
 //draws grid based
 for(var vx = 0; vx < room_width; vx += scale) {
 	for(var vy = 0; vy < room_height; vy += scale) {
-		if(mouse_x > vx && mouse_x < vx + scale && mouse_y > vy && mouse_y < vy + scale) {
-			draw_rectangle_color(vx, vy, vx + scale, vy + scale, c_fuchsia, c_aqua, c_fuchsia, c_aqua, true);
+		if(mouse_x > vx - scale / 2 && mouse_x < vx + scale / 2 && mouse_y > vy - scale / 2 && mouse_y < vy + scale / 2) {
+			draw_rectangle_color(vx - scale / 2, vy - scale / 2, vx + scale / 2, vy + scale / 2, c_fuchsia, c_aqua, c_fuchsia, c_aqua, true);
 			
 			obj_dungeon_master.nearest_box_x = vx;
 			obj_dungeon_master.nearest_box_y = vy;

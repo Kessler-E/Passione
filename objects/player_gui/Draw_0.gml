@@ -1,5 +1,12 @@
 if(keyboard_check_pressed(ord("I"))) {
+	
 	show_gui = !show_gui;
+	
+	if(show_gui) 
+		audio_play_sound(menu_open, -1, false);
+	else
+		audio_play_sound(menu_close, -1, false);
+	
 }
 
 if(keyboard_check_pressed(ord("Q"))) {
