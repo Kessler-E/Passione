@@ -10,7 +10,7 @@ else if cooldown <= 0{
 	dir_x = 0
 	dir_y = 0
 	shot = instance_create_depth(x,y,100,obj_attack_enemy)
-	shot.damage = e_damage
+	shot.damage = damage
 	cooldown = cooldown_max
 }
 
