@@ -4,7 +4,7 @@ y = mouse_y;
 
 //add everything buyable object here
 //layout: [a,b,c,d]
-buyables = [enemy_basic, enemy_ranged, enemy_swarm];
+buyables = [enemy_basic, enemy_ranged, enemy_swarmer];
 
 //names
 //add the name of the object in the correspoding position in the buyables array.\
@@ -16,7 +16,7 @@ names = ["Melee", "Ranged", "Swarm"];
 prices = [50, 100, 120];
 
 //descriptions of each
-desc = ["Basic enemy, uses melee attacks.", "Ranged enemy, shoots bullets at the player", "Swarm, a group of smaller, weaker melee enemies."];
+desc = ["Basic enemy, uses melee attacks.", "Ranged enemy, shoots bullets at the player", "Swarm, a group of smaller, weaker melee enemies.", "Test"];
 
 //entity to place
 selected_entity = 0;
