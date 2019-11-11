@@ -31,7 +31,9 @@ for(var i = 0; i < array_length_1d(obj_dungeon_master.buyables); i++) {
 		if(mouse_check_button_pressed(mb_left)) {
 			if(global.enemy_gold >= obj_dungeon_master.prices[i]) {
 				audio_play_sound(entity_select, 1, false);
+				
 				obj_dungeon_master.selected_entity = obj_dungeon_master.buyables[i];
+				
 				global.enemy_gold -= obj_dungeon_master.prices[i];
 				instance_destroy();
 			} else {
@@ -65,7 +67,7 @@ draw_text(x_spawn + 5, y_spawn + 5, "\nFunds: " + string(global.enemy_gold));
 //check if mouse is not touching box
 //click outside to close.
 if(!(mouse_x > x_spawn && mouse_x < x_spawn + universal_width && mouse_y > y_spawn && mouse_y < y_spawn + height)) {
-	if(mouse_check_button_pressed(mb_any)) {
+	if(mouse_check_button_pressed(mb_left)) {
 		instance_destroy();
 		audio_play_sound(menu_close, 1, false);
 	}
