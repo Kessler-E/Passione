@@ -4,5 +4,6 @@ min_scale = 0.4;
 switch_s = true;
 scale_speed = 0.01;
 rotate_speed = 0.5;
+is_tracking_player = false;
 image_xscale = 0.8;
 image_yscale = 0.8;

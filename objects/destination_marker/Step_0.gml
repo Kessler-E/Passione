@@ -12,6 +12,11 @@ if(switch_s) {
 	}
 }
 
+if is_tracking_player = true {
+	x = obj_player.x 
+	y = obj_player.y	
+}
+
 image_angle += rotate_speed;
 
 image_xscale = scale_size;

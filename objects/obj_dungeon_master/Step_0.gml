@@ -10,6 +10,9 @@ if(selected_entity == 0) {
 		
 			effect_create_above(ef_ring, x, y, 1, c_aqua);
 			marker = instance_create_layer(x, y, "Instances", destination_marker)
+			if point_distance(marker.x,marker.y,obj_player.x,obj_player.y) <= obj_player.sprite_width{
+				marker.is_tracking_player = true	
+			}
 		}
 	}
 } else {
