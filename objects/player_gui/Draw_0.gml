@@ -9,22 +9,7 @@ if(keyboard_check_pressed(ord("I"))) {
 	
 }
 
-if(keyboard_check_pressed(ord("Q"))) {
-	if(!selected_int <= 0) {
-		selected_int -= 1; 
-	} else {
-		selected_int = array_length_1d(selected); 
-	}
-}
 
-
-
-//add stuff here when player activates
-if(keyboard_check_pressed(ord("E"))) {
-	
-	
-	show_gui = false;
-}
 
 
 
@@ -36,7 +21,34 @@ for(var i = 0; i < array_length_1d(player_buyables); i++) {
 	}
 }
 
-if(show_gui) {
+	if(show_gui) {
+		if(keyboard_check_pressed(ord("Q"))) {
+			audio_play_sound(menu_tic, 1, false);
+		if(!selected_int <= 0) {
+			selected_int -= 1; 
+		} else {
+			selected_int = array_length_1d(selected); 
+		}
+	}
+
+
+
+	//add stuff here when player activates
+	if(keyboard_check_pressed(ord("E"))) {
+	
+		if(selected_int == 0) {
+			obj_player.health_level++;
+			audio_play_sound(player_lvlup, 1, false);
+		} else if(selected_int == 1) {
+			obj_player.speed_level++;
+			audio_play_sound(player_lvlup, 1, false);
+		} else if(selected_int == 2) {
+			obj_player.damage_level++;
+			audio_play_sound(player_lvlup, 1, false);
+		} 
+	
+		show_gui = false;
+	}
 	draw_set_color(c_white);
 	draw_rectangle(x - (plW * 3), y - 50, x + (plW * 3), y - height, false);
 	

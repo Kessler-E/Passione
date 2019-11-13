@@ -6,7 +6,7 @@ show_gui = false;
 
 
 player_buyables = [0, 0, 0];
-labels = ["Label 1", "Label 2", "Label 3"];
+labels = ["Health Lvl +1", "Movespeed Lvl +1", "Damage Lvl +1"];
 selected = 0;
 selected_int = 0;
 
