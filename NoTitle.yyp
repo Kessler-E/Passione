@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "e063ddc1-dd88-413a-b08f-b59006b7a0c3",
+            "Value": {
+                "id": "c910d1c0-f566-42dd-851b-d392f10d632d",
+                "resourcePath": "objects\\enemy_ranged\\enemy_ranged.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e4a36241-66aa-4162-8b1c-91f0b228c20e",
             "Value": {
                 "id": "fc7f0b31-b836-49d3-a71d-8e7a4db77c86",
