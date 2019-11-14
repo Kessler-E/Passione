@@ -1,3 +1,8 @@
+price[0] = 5 * obj_player.health_level + 5;
+price[1] = 5 * obj_player.speed_level + 5;
+price[2] = 5 * obj_player.damage_level + 5;
+labels = ["Health Lvl " + string(obj_player.health_level + 1), "Movespeed Lvl " + string(obj_player.speed_level + 1), "Damage Lvl +1" + string(obj_player.damage_level + 1)];
+
 if(keyboard_check_pressed(ord("I"))) {
 	
 	show_gui = !show_gui;
@@ -38,12 +43,15 @@ for(var i = 0; i < array_length_1d(player_buyables); i++) {
 	
 		if(selected_int == 0) {
 			obj_player.health_level++;
+			global.player_gold -= 5 * obj_player.health_level + 5;
 			audio_play_sound(player_lvlup, 1, false);
 		} else if(selected_int == 1) {
 			obj_player.speed_level++;
+			global.player_gold -= 5 * obj_player.speed_level + 5;
 			audio_play_sound(player_lvlup, 1, false);
 		} else if(selected_int == 2) {
 			obj_player.damage_level++;
+			global.player_gold -= 5 * obj_player.damage_level + 5;
 			audio_play_sound(player_lvlup, 1, false);
 		} 
 	
@@ -69,7 +77,7 @@ for(var i = 0; i < array_length_1d(player_buyables); i++) {
 		
 		draw_set_color(c_black);
 		draw_set_font(def_small);
-		draw_text(x - (plW * 3) + 10, y - height + (i * 30) + 7, labels[i]);
+		draw_text(x - (plW * 3) + 10, y - height + (i * 30) + 7, labels[i] + " ($" + string(price[i]) + ")");
 	}
 	
 	

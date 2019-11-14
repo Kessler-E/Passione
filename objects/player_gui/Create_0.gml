@@ -6,7 +6,8 @@ show_gui = false;
 
 
 player_buyables = [0, 0, 0];
-labels = ["Health Lvl +1", "Movespeed Lvl +1", "Damage Lvl +1"];
+prices = [5, 5, 5];
+labels = ["Health Lvl " + string(obj_player.health_level + 1), "Movespeed Lvl " + string(obj_player.speed_level + 1), "Damage Lvl " + string(obj_player.damage_level + 1)];
 selected = 0;
 selected_int = 0;
 
