@@ -1,6 +1,11 @@
 scale = 50;
+map_arr = 0;
+can_drop = false;
 
-random_set_seed(current_second);
+drops = [obj_pickup_machinegun, obj_pickup_scatter, obj_pickup_normal, obj_pickup_health];
+
+random_set_seed(current_time);
+
 for(var vx = 0; vx < room_width; vx += scale) {
 	for(var vy = 0; vy < room_height; vy += scale) {
 		map_arr[vx, vy] = false;

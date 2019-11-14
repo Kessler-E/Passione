@@ -2,7 +2,7 @@ x = mouse_x;
 y = mouse_y;
 
 if(selected_entity == 0) {
-	if(!instance_exists(menu_obj)) {
+	if(!instance_exists(menu_obj) && !enemy_upgrade.show_gui) {
 		if(mouse_check_button_pressed(mb_left)) {
 			if(instance_exists(destination_marker)) {
 				instance_destroy(destination_marker);

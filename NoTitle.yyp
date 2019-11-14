@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "42f1a9db-74fa-400a-9872-378ab0b367ce",
+            "Value": {
+                "id": "4d883f51-5fdd-43e7-a81a-4fce66df827f",
+                "resourcePath": "objects\\enemy_upgrade\\enemy_upgrade.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "44119b5d-ac73-4ba6-ade7-4f3f83072bb6",
             "Value": {
                 "id": "5357868e-be80-441d-b229-5ad40a8bd7e1",
