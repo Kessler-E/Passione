@@ -1,7 +1,7 @@
 price[0] = 5 * obj_player.health_level + 5;
 price[1] = 5 * obj_player.speed_level + 5;
 price[2] = 5 * obj_player.damage_level + 5;
-labels = ["Health Lvl " + string(obj_player.health_level + 1), "Movespeed Lvl " + string(obj_player.speed_level + 1), "Damage Lvl +1" + string(obj_player.damage_level + 1)];
+labels = ["Health Lvl " + string(obj_player.health_level + 1), "Movespeed Lvl " + string(obj_player.speed_level + 1), "Damage Lvl " + string(obj_player.damage_level + 1)];
 
 if(keyboard_check_pressed(ord("I"))) {
 	
@@ -42,17 +42,29 @@ for(var i = 0; i < array_length_1d(player_buyables); i++) {
 	if(keyboard_check_pressed(ord("E"))) {
 	
 		if(selected_int == 0) {
-			obj_player.health_level++;
-			global.player_gold -= 5 * obj_player.health_level + 5;
-			audio_play_sound(player_lvlup, 1, false);
+			if(global.player_gold >= price[0]) {
+				obj_player.health_level++;
+				global.player_gold -= price[0];
+				audio_play_sound(player_lvlup, 1, false);
+			} else {
+				audio_play_sound(funds_low, 1, false);
+			}
 		} else if(selected_int == 1) {
-			obj_player.speed_level++;
-			global.player_gold -= 5 * obj_player.speed_level + 5;
-			audio_play_sound(player_lvlup, 1, false);
+			if(global.player_gold >= price[1]) {
+				obj_player.speed_level++;
+				global.player_gold -= price[1];
+				audio_play_sound(player_lvlup, 1, false);
+			} else {
+				audio_play_sound(funds_low, 1, false);
+			}
 		} else if(selected_int == 2) {
-			obj_player.damage_level++;
-			global.player_gold -= 5 * obj_player.damage_level + 5;
-			audio_play_sound(player_lvlup, 1, false);
+			if(global.player_gold >= price[2]) {
+				obj_player.damage_level++;
+				global.player_gold -= price[2];
+				audio_play_sound(player_lvlup, 1, false);
+			} else {
+				audio_play_sound(funds_low, 1, false);
+			}
 		} 
 	
 		show_gui = false;
