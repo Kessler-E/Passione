@@ -13,5 +13,6 @@ vsp = movespeed * dir_y
 collide_move(hsp, vsp, obj_wall)
 
 if e_health <= 0{
+	audio_play_sound(enemy_death, 1, false);
 	instance_destroy(self)	
 }

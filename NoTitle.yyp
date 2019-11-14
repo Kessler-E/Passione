@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1e3e9092-3c31-4d5f-91f4-b70d2de973c2",
+            "Value": {
+                "id": "d58f3369-d636-4c8c-8320-ccd32c18b1eb",
+                "resourcePath": "sounds\\sound_shoot\\sound_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "20466a96-78e1-4fa2-bef1-4d2d89c9bd68",
             "Value": {
                 "id": "335f71ab-62d1-4f63-9e28-a01fc9588dd7",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "7159e7b2-6f76-4fba-a55b-073a7dd4d95d",
+            "Value": {
+                "id": "a6e51486-f1b0-410f-834f-76f85e887554",
+                "resourcePath": "sounds\\enemy_death\\enemy_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "753a1f68-abe0-4f16-825a-c6ddb3883692",
             "Value": {
                 "id": "3ad21346-fa8a-4c44-89a8-6c7cd18745cd",
@@ -427,6 +443,14 @@
             "Value": {
                 "id": "d12634ba-f026-47c3-9873-67899c221a1a",
                 "resourcePath": "objects\\enemy_ranged\\enemy_ranged.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8fa7dd2-edae-4196-8cab-1377a88e3b41",
+            "Value": {
+                "id": "65d7ea22-8fbf-4469-8f5b-67ce7c85e0b9",
+                "resourcePath": "objects\\bg_emitter\\bg_emitter.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -572,6 +596,14 @@
                 "id": "fc7f0b31-b836-49d3-a71d-8e7a4db77c86",
                 "resourcePath": "sprites\\spr_melee\\spr_melee.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e4da462f-b91b-45a2-9931-5e87b1018190",
+            "Value": {
+                "id": "9cd2840a-5776-4d50-a997-7f7355873e9c",
+                "resourcePath": "sounds\\bg_music\\bg_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
